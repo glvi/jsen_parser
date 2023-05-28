@@ -1,11 +1,19 @@
-%%% JSON scanner for Erlang
+%%% jsen_parser - JSON parser in Erlang.
+%%% Copyright (C) 2023  GLVI Gesellschaft für Luftverkehrsinformatik mbH, Germany.
 %%%
-%%% JSON scanner scans for the following patterns in the input:
+%%% This program is free software: you can redistribute it and/or
+%%% modify it under the terms of the GNU General Public License as
+%%% published by the Free Software Foundation, either version 3 of the
+%%% License, or (at your option) any later version.
 %%%
-%%%   - a literal "null", "false", or "true"; or
-%%%   - a number.
+%%% This program is distributed in the hope that it will be useful,
+%%% but WITHOUT ANY WARRANTY; without even the implied warranty of
+%%% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+%%% General Public License for more details.
 %%%
-%%% @end
+%%% You should have received a copy of the GNU General Public License
+%%% along with this program.  If not, see
+%%% <https://www.gnu.org/licenses/>.
 
 %%% Note: When using regular expression variables, note that the
 %%% variables are simply replaced by the text string that defines
